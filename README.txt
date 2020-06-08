@@ -9,7 +9,8 @@ Download emoji:
 
 Copy aliases over:
 
-    1. aliases.rb
+    1. Generate array for top of aliases.rb: `for i in ls *alias*; do echo "'$i'",; done > aliases.txt`
+    1. update and run aliases.rb
 
 For uploading:
 
